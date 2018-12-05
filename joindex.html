@@ -1,1 +1,80 @@
-<h1>hello survivors!</h1>>
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      font-family: courier new;
+      background: url('https://shu.ac.uk/~/media/home/about-us/governance-and-strategy/images/leading-locally-engaging-globaly.jpg');
+      background-size: cover;
+      color: F28;
+    }
+    a {
+      color: pink;
+    }
+    h1 {
+      font-family: courier new;
+      font-size: 80px;
+      color: white;
+    }
+    img {
+      margin: 10px 10px px 200px;
+      border: 7px solid;
+      border-radius: 90px;
+    }
+    ul {
+      padding: 300px;
+      background: url('http://sandbox.leedsbeckettsu.co.uk/freshersholding2/wp-content/uploads/sites/4/2017/07/Freshers019.jpg');
+    }
+    li {
+      display: inline;
+      font-family: courier new;
+      padding: 0px 10px 0px 10px;
+      background: url()
+    }
+    article {
+      max-width: 500px;
+      font-family: courier new;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-family: courier new;
+        font-size: 100px;
+        padding: 5px;
+      }
+      li {
+        font-family: courier new;
+        padding: 5px;
+        display: block;
+      }
+    button {
+      color: pink;
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://scontent-amt2-1.cdninstagram.com/vp/0e2f09cade58f6eda329ea540b4c3d0d/5C566F4E/t51.2885-15/e35/41227586_1915738545131282_7390267927988890026_n.jpg">
+    <h1>Student Guide to Surviving Hallam</h1>
+    <ul>
+      <li><a href="#">About Surviving</a></li>
+      <li><a href="#">Top Tips</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Surviving SHU Top Tips</h2>
+    <p>Check out our top tips link above for all the best tips, secrets and guides to surviving your time at SHU!</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>What would you like to see added next to our top tips?</h2>
+    <p>Click the Like if you would like to see our top cheap clubs and pubs guide</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>

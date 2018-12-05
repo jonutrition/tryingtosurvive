@@ -1,6 +1,37 @@
-h1 {
-  color: red;
-  font-family: helvetica;
-  text-align: center;
-  font size: 25px;
+h1{
+color: maroon;
+font-family: courier new;
+text-align: center;
+text size: 30px;
+padding-top: 30px;
 }
+h2 {
+  color:maroon;
+  font-family:courier new;
+  text-align: center;
+  text size: 25px;
+  padding-bottom: 30px;
+}
+p{
+  Font-family: courier new;
+  font-size: 15px;
+  text-align: left;
+  colour: black;
+  padding: 10px;
+}
+li{
+  color: maroon;
+}
+ img {
+   padding:10px;
+
+ }
+ p2{
+   color: maroon;
+   font-family: courier;
+   text-align: center;
+   font size: 25px
+ }
+ body{
+   background-color: white;
+ }

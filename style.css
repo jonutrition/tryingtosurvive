@@ -26,7 +26,7 @@ li{
    padding:10px;
 
  }
- p2{
+ h3{
    color: maroon;
    font-family: courier;
    text-align: center;
@@ -35,3 +35,19 @@ li{
  body{
    background-color: white;
  }
+a {
+  color: maroon;
+}
+#navigation{
+  display: inline;
+ text-align: center;
+}
+#list {
+  display: inline-block;
+}
+#list2 {
+  display: inline-block;
+}
+#list3 {
+  display: inline-block;
+}

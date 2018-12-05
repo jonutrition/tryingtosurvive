@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Courier new';
+  text-align: center;
+  background-color: #e6005c;
+}
+h1 {
+  color: white;
+  font-weight: 400;
+  padding-top: 40px;
+}
+
+.white {
+  color: white;
+  font-size: 40px;
+}
